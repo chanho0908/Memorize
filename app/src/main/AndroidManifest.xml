@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" >
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.TTS_SERVICE" />
+        </intent>
+    </queries>
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Memorizes"
+        tools:targetApi="31" >
+        <activity
+            android:name=".exam.ExResultActivity"
+            android:exported="true" />
+        <activity
+            android:name=".exam.ExamActivity"
+            android:exported="true" />
+        <activity
+            android:name=".NavActivity"
+            android:exported="true"
+            android:label="@string/title_activity_nav" />
+        <activity
+            android:name=".word.GroupByWordActivity"
+            android:exported="true" />
+        <activity
+            android:name=".group.GroupListActivity"
+            android:exported="true" />
+        <activity
+            android:name=".group.UpdateGroupActivity"
+            android:exported="true" />
+        <activity
+            android:name=".word.UpdateWordActivity"
+            android:exported="true" />
+        <activity
+            android:name=".group.MakeGroupActivity"
+            android:exported="true" />
+        <activity
+            android:name=".group.SelectGroupActivity"
+            android:exported="true" />
+        <activity
+            android:name=".word.InputWordActivity"
+            android:exported="true" />
+        <activity
+            android:name=".word.InputWordFromGroupActivity"
+            android:exported="true" />
+        <activity
+            android:name=".intro.JoinActivity"
+            android:exported="true" />
+        <activity
+            android:name=".intro.LoginActivity"
+            android:exported="true" />
+        <activity
+            android:name=".intro.IntroActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>
