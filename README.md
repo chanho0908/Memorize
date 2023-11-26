@@ -10,8 +10,24 @@
 
 ## 팀소개
 #### 프로젝트 책임자 : 컴퓨터 정보과(202144091) 정찬호  
-#### 공동 참여자 : 컴퓨터 정보과(202144104) 이소은
+#### 공동 참여자 : 컴퓨터 정보과(202144104) 이소은  
 
-![제목 없는 디자인](https://github.com/chanho0908/Memorize/assets/84930748/d8a8306f-f81b-4ad8-9eeb-d4a8ffada0fd)
+|단어 추가|단어 수정/삭제|
+|---|---|
+|<img src="https://github.com/chanho0908/Memorize/assets/84930748/81f78bf5-f840-4974-b6eb-8238d7fdceb2" width="400"/>|<img src="https://github.com/chanho0908/Memorize/assets/84930748/db446e29-3187-4123-86a3-10c903ac2cdc" width="400"/>|
+
+
+|단어 추가/그룹 추가|그룹창에서 단어추가|
+|---|---|
+|<img src="https://github.com/chanho0908/Memorize/assets/84930748/ae05860c-4b31-4b7d-80f5-fbc9e3ff1b8e" width="400"/>|<img src="https://github.com/chanho0908/Memorize/assets/84930748/61ae6df4-1f9c-4a4a-92fd-cef19d8e7a77" width="400"/>|
+
+
+|단어 시험|
+|---|
+|<img src="https://github.com/chanho0908/Memorize/assets/84930748/ddfc2126-ae25-4219-b900-669356924543" width="400"/>|
+
+
+
+
 
 
